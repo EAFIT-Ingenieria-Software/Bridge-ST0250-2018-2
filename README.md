@@ -17,6 +17,8 @@ Volviendo al ejemplo, la manera correcta de aplicar el patrón de diseño es ten
 
 De esta manera es posible que cada dispositivo sea controlado por el control remoto que se desee sin necesidad de crear muchas clases nuevas, simplemente hay que crear una instancia de ControlRemoto y asignarle el dispositivo que este controla.
 
+Este ejemplo fue desarrollado en **Java**
+
 ## Modelo de Clases
 ![picture](DiagramaBridge.jpg)
 
