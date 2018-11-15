@@ -18,7 +18,7 @@ Volviendo al ejemplo, la manera correcta de aplicar el patrón de diseño es ten
 De esta manera es posible que cada dispositivo sea controlado por el control remoto que se desee sin necesidad de crear muchas clases nuevas, simplemente hay que crear una instancia de ControlRemoto y asignarle el dispositivo que este controla.
 
 ## Modelo de Clases
-![picture](Bridge.jpg)
+![picture](DiagramaBridge.jpg)
 
 ## Descripción ejemplo
 En la clase BridgePatterDemo(main) se crean 4 dispositivos, un televisor ubicado en la sala, un ventilador ubicado en la habitación principal, un parlante ubicado en el estudio y otro televisor ubicado en la habitación principal. Luego, se crean los respectivos controles especificando a que dispositivo pertenece. Finalmente, se presiona el botón de encendido y se imprime cual fue el dispositivo que se acaba de prender. Si se deseara que un control remoto encendiera un dispositivo diferente, simplemente habría que cambiar la especificación del dispositivo que se le pasa como parametro.
