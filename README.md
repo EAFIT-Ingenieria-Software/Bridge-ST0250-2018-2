@@ -18,3 +18,15 @@ Volviendo al ejemplo, la manera correcta de aplicar el patrón de diseño es ten
 De esta manera es posible que cada dispositivo sea controlado por el control remoto que se desee sin necesidad de crear muchas clases nuevas, simplemente hay que crear una instancia de ControlRemoto y asignarle el dispositivo que este controla.
 
 ## Modelo de Clases
+![picture](BridgeDiagram.jpg)
+
+## Descripción ejemplo
+En la clase BridgePatterDemo(main) se crean 4 dispositivos, un televisor ubicado en la sala, un ventilador ubicado en la habitación principal, un parlante ubicado en el estudio y otro televisor ubicado en la habitación principal. Luego, se crean los respectivos controles especificando a que dispositivo pertenece. Finalmente, se presiona el botón de encendido y se imprime cual fue el dispositivo que se acaba de prender. Si se deseara que un control remoto encendiera un dispositivo diferente, simplemente habría que cambiar la especificación del dispositivo que se le pasa como parametro.
+
+## Referencias
+1.  https://programacion.net/articulo/patrones_de_diseno_viii_patrones_estructurales_bridge_1010 
+2.  https://www.geeksforgeeks.org/bridge-design-pattern/ 
+3.  https://es.wikipedia.org/wiki/Bridge_(patrón_de_diseño) 
+4.  https://java2blog.com/bridge-design-pattern-in-java/
+5.  http://csharp-video-tutorials.blogspot.com/2018/01/bridge-design-pattern.html
+6.  http://migranitodejava.blogspot.com/2011/06/bridge.html
